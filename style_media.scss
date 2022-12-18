@@ -1,0 +1,99 @@
+@import "style.scss";
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    body {
+        max-width: 1199px;
+    }
+
+    .logo-wrap {
+        margin-left: 7%;
+    }
+
+    .menu {
+        min-width: 200px;
+        margin-left: 15%;
+    }
+
+    .block-1 {
+        padding-top: 150px;
+        padding-left: 4%;
+    }
+
+    .block-1__text-wrap {
+        width: 55%;
+    }
+
+    .block-2 {
+        width: 94%;
+        max-width: 992px;
+        height: 171px;
+    }
+
+    .block-3__text-wrap {
+        width: 45%;
+    }
+
+    .block-3__graph {
+        margin-left: 3%;
+        width: 43%;
+    }
+
+    .block-4__left-section {
+        padding-left: 10%;
+    }
+
+    .block-4__right-section {
+        padding-left: 14%;
+
+        p {
+            width: 85%;
+        }
+    }
+
+    .block-5__section-1 {
+        width: 90%;
+        margin-bottom: 120px;
+    }
+
+    .block-5__section-2 {
+        width: 90%;
+    }
+
+    .block-5__section-3 {
+        width: 90%;
+    }
+
+    .section-3__img-wrap {
+        width: 23.6%;
+    }
+
+    .section-3__text-wrap {
+        width: 60%;
+    }
+
+    .block-6 {
+        padding-left: 5%;
+    }
+
+    .block-6__text-wrap {
+        width: 45%;
+    }
+
+    .slider {
+        width: 94%;
+    }
+
+    .block-8 {
+        grid-template-columns: repeat(3, 27%);
+        gap: 5%;
+    }
+
+    .block-9__text-wrap {
+        width: 80%;
+    }
+
+    .footer-wrap {
+        width: 90%;
+    }
+}
